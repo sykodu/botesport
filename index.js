@@ -146,15 +146,15 @@ if (message.content === "!streamers") {
 🏆 SOLO CC TOP 50 — **10€**
 🏆 SOLO CC TOP 10 — **15€**
 
-🥇 DIV 1 TOP 100 ALT — **8€**
-🥇 DIV 1 TOP 50 ALT — **13€**
-🥇 DIV 1 TOP 33 ALT — **17€**
-🥇 DIV 1 TOP 10 ALT — **22€**
+🥇 DIV 3 TOP 100 ALT — **8€**
+🥇 DIV 3 TOP 50 ALT — **13€**
+🥇 DIV 3 TOP 33 ALT — **17€**
+🥇 DIV 3 TOP 10 ALT — **22€**
 
-🥈 DIV 2 TOP 100 ALT — **6€**
-🥈 DIV 2 TOP 50 ALT — **10€**
-🥈 DIV 2 TOP 33 ALT — **13€**
-🥈 DIV 2 TOP 10 ALT — **18€**
+🥈 DIV 4 TOP 100 ALT — **6€**
+🥈 DIV 4 TOP 50 ALT — **10€**
+🥈 DIV 4 TOP 33 ALT — **13€**
+🥈 DIV 4 TOP 10 ALT — **18€**
 
 🔄 RELOAD TOP 50 — **5€**
 🔄 RELOAD TOP 25 — **8€**
