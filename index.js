@@ -33,9 +33,10 @@ client.on("messageCreate", async (message) => {
       .setColor("#5865F2")
       .setTitle("🎮 MAIN PLAYERS")
       .setDescription(`
-🇮🇹 Obito
-🇮🇹 Glierra
-🇮🇹 Cugi
+🇮🇹 ASTRSOF
+🇮🇹 GLIERRA
+🇮🇹 CUGI
+🇮🇹 KAi
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({ text: "Aggiornato automaticamente" });
@@ -48,15 +49,11 @@ client.on("messageCreate", async (message) => {
       .setColor("#5865F2")
       .setTitle("⭐ TALENT PLAYERS")
       .setDescription(`
-🇮🇹 SIKX
 🇮🇹 GABRY
-🇮🇹 CUGI
-🇮🇹 BALLARINO
 🇮🇹 LORE
 🇮🇹 NEMMEN
 🇮🇹 KINDERINO
 🇮🇹 TUNDRA
-🇮🇹 NXZY
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({ text: "Talent • Updated automatically" });
@@ -116,66 +113,66 @@ if (message.content === "!streamers") {
       .setColor("#5865F2")
       .setTitle("📋 REQUIREMENTS")
       .setDescription(`
-👋 **Welcome to the Requirements Channel!**
+👋 **Benvenuto nel Canale Requisiti!**
 
-If you want to join our organization, please check the minimum **PR (EU PC)** or **Elite Tokens ranking** required for each category.
-
+Se vuoi entrare nella nostra organizzazione, controlla il **PR minimo (EU PC)**
 🏫 **ACADEMY**
-• Minimum **200 PR**
+• Minimo **200 PR**
 
 ⭐ **TALENT**
-• Minimum **1K PR**
+• Minimo **1K PR**
 
 🔥 **MAIN**
-• Minimum **2K PR**
+• Minimo **2K PR**
 
-Or 1v1 to prove you are good
-
-━━━━━━━━━━━━━━━━━━
-
-📌 **Operational Note (PR Assessment – FataL)**
-
-• PR earned in **Middle East** counts at **50%**
-  Example: 36,000 → 18,000
-
-• PR earned in **NA** is divided by **1.5**
-  Example: 45,000 → 30,000
+Oppure puoi fare un **1v1** per dimostrare il tuo livello.
 
 ━━━━━━━━━━━━━━━━━━
 
-➡️ **How to Try Out?**
+📌 **Nota Operativa (Valutazione PR – SOFT)**
+
+• I PR ottenuti in **Medio Oriente** valgono al **50%**
+Esempio: 36.000 → 18.000
+
+• I PR ottenuti in **NA (Nord America)** vengono divisi per **1,5**
+Esempio: 45.000 → 30.000
+
+━━━━━━━━━━━━━━━━━━
+
+➡️ **Come Fare il Provino?**
 
 🎮 **1V1**
-Do Tryout 1V1. If you pass, you join Academy.
+Fai un provino 1v1. Se lo superi, entrerai nell'**Academy**.
 
 🗺️ **Video TikTok**
-Create a video where you freebuild or fight someone.
-Explain at least **3 valid reasons** why you should join the organization.
+Crea un video in cui fai freebuild oppure combatti contro qualcuno.
+Spiega almeno **3 motivi validi** per cui dovresti entrare nell'organizzazione.
 
 ━━━━━━━━━━━━━━━━━━
 
-🌟 **Want to Support the Community?**
+🌟 **Vuoi Supportare la Community?**
 
-⭐ VIP+ Lifetime — €7
+⭐ **VIP+ a vita** — **7 €**
 
 ━━━━━━━━━━━━━━━━━━
 
 🎥 **CONTENT CREATOR**
-• 100K–200K monthly views
-• Consistent uploads
-• Good video quality
-• Active on YouTube, TikTok or Instagram
+• 10K–20K visualizzazioni mensili
+• Pubblicazioni costanti
+• Buona qualità video
+• Attivo su YouTube, TikTok o Instagram
 
 📡 **STREAMER**
-• 20–30 average viewers
-• Regular streaming schedule
-• Active community
-• Good audio/video quality
-• Professional behaviour
+• 20–30 spettatori medi
+• Programmazione regolare delle live
+• Community attiva
+• Buona qualità audio/video
+• Comportamento professionale
 
 ━━━━━━━━━━━━━━━━━━
 
-📩 Open a 🎫｜ticket if you meet any requirement.
+📩 Apri un 🎫 **ticket** se soddisfi uno dei requisiti richiesti.
+
 `)
       .setImage(GIF_IMAGE)
       .setFooter({ text: "Requirements • Updated automatically" });
