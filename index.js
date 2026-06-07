@@ -114,31 +114,6 @@ if (message.content === "!streamers") {
     .setTitle("💰 PAYMENTS TALENT & MAIN")
     .setDescription(`
 ━━━━━━━━━━━━━━━━━━
-
-⭐ **TALENT**
-
-🏆 SOLO CC TOP 500 — **2€**
-🏆 SOLO CC TOP 100 — **5€**
-🏆 SOLO CC TOP 50 — **8€**
-🏆 SOLO CC TOP 10 — **12€**
-
-🥇 DIV 1 TOP 100 ALT — **6€**
-🥇 DIV 1 TOP 50 ALT — **10€**
-🥇 DIV 1 TOP 33 ALT — **13€**
-🥇 DIV 1 TOP 10 ALT — **18€**
-
-🥈 DIV 2 TOP 100 ALT — **4€**
-🥈 DIV 2 TOP 50 ALT — **7€**
-🥈 DIV 2 TOP 33 ALT — **10€**
-🥈 DIV 2 TOP 10 ALT — **14€**
-
-🎯 EVALUATION CUP TOP 100 — **4€**
-🎯 EVALUATION CUP TOP 50 — **7€**
-🎯 EVALUATION CUP TOP 33 — **10€**
-🎯 EVALUATION CUP TOP 10 — **15€**
-
-━━━━━━━━━━━━━━━━━━
-
 🔥 **MAIN**
 
 🏆 SOLO CC TOP 500 — **3€**
@@ -146,15 +121,15 @@ if (message.content === "!streamers") {
 🏆 SOLO CC TOP 50 — **10€**
 🏆 SOLO CC TOP 10 — **15€**
 
-🥇 DIV 3 TOP 100 ALT — **8€**
-🥇 DIV 3 TOP 50 ALT — **13€**
-🥇 DIV 3 TOP 33 ALT — **17€**
-🥇 DIV 3 TOP 10 ALT — **22€**
+🥇 DIV 1 TOP 100 ALT — **8€**
+🥇 DIV 1 TOP 50 ALT — **13€**
+🥇 DIV 1 TOP 33 ALT — **17€**
+🥇 DIV 1 TOP 10 ALT — **22€**
 
-🥈 DIV 4 TOP 100 ALT — **6€**
-🥈 DIV 4 TOP 50 ALT — **10€**
-🥈 DIV 4 TOP 33 ALT — **13€**
-🥈 DIV 4 TOP 10 ALT — **18€**
+🥈 DIV 2 TOP 100 ALT — **6€**
+🥈 DIV 2 TOP 50 ALT — **10€**
+🥈 DIV 2 TOP 33 ALT — **13€**
+🥈 DIV 2 TOP 10 ALT — **18€**
 
 🔄 RELOAD TOP 50 — **5€**
 🔄 RELOAD TOP 25 — **8€**
@@ -164,6 +139,30 @@ if (message.content === "!streamers") {
 🎯 EVALUATION CUP TOP 50 — **8€**
 🎯 EVALUATION CUP TOP 33 — **12€**
 🎯 EVALUATION CUP TOP 10 — **18€**
+
+━━━━━━━━━━━━━━━━━━
+
+⭐ **TALENT**
+
+🏆 SOLO CC TOP 500 — **2€**
+🏆 SOLO CC TOP 100 — **5€**
+🏆 SOLO CC TOP 50 — **8€**
+🏆 SOLO CC TOP 10 — **12€**
+
+🥇 DIV 3 TOP 100 ALT — **6€**
+🥇 DIV 3 TOP 50 ALT — **10€**
+🥇 DIV 3 TOP 33 ALT — **13€**
+🥇 DIV 3 TOP 10 ALT — **18€**
+
+🥈 DIV 4 TOP 100 ALT — **4€**
+🥈 DIV 4 TOP 50 ALT — **7€**
+🥈 DIV 4 TOP 33 ALT — **10€**
+🥈 DIV 4 TOP 10 ALT — **14€**
+
+🎯 EVALUATION CUP TOP 100 — **4€**
+🎯 EVALUATION CUP TOP 50 — **7€**
+🎯 EVALUATION CUP TOP 33 — **10€**
+🎯 EVALUATION CUP TOP 10 — **15€**
 
 ━━━━━━━━━━━━━━━━━━
 
