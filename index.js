@@ -49,11 +49,14 @@ client.on("messageCreate", async (message) => {
       .setColor("#5865F2")
       .setTitle("⭐ TALENT PLAYERS")
       .setDescription(`
-🇮🇹 GABRY
 🇮🇹 LORE
-🇮🇹 NEMMEN
-🇮🇹 KINDERINO
+🇮🇹 TEOX
 🇮🇹 TUNDRA
+🇮🇹 Palazz
+🇮🇹 DOMENICO
+🇮🇹 HAPU
+🇮🇹 SIKX64
+🇮🇹 FEDE
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({ text: "Talent • Updated automatically" });
@@ -66,24 +69,28 @@ client.on("messageCreate", async (message) => {
       .setColor("#5865F2")
       .setTitle("🏫 ACADEMY PLAYERS")
       .setDescription(`
-🇮🇹 SBOXY
-🇮🇹 SLUMP
-🇮🇹 EMA
-🇮🇹 24K
-🇮🇹 ANDREAMAGIA
 🇮🇹 IBRA
-🇮🇹 FROM
-🇮🇹 CHRIS
-🇮🇹 DAXI
-🇮🇹 RICKY
-🇮🇹 AURA
-🇮🇹 SCARACCA
-🇮🇹 LILLO
-🇮🇹 CHRISTIAN
+🇮🇹 CHRIS 
+🇮🇹 FRED
 🇮🇹 MAURO
+🇮🇹 SBOXY
+🇮🇹 BANANALEPRO
+🇮🇹 MAGIA
+🇮🇹 KRONOSFV
+🇮🇹 S7TTIA
 🇮🇹 RAWL
+🇮🇹 ANDROS
+🇮🇹 DAXI15
+🇮🇹 EMA
+🇮🇹 FREE24K
+🇮🇹 LILLO
+🇮🇹 NAYT
+🇮🇹 RICKY
+🇮🇹 SMARK
+🇮🇹 TEK
 🇮🇹 GXBRY
-🇮🇹 MXXNDY
+🇮🇹 YESSER
+
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({
@@ -99,7 +106,6 @@ if (message.content === "!streamers") {
       .setColor("#5865F2")
       .setTitle("🎥 STREAMERS")
       .setDescription(`
-🇮🇹 Sikx64
 🇮🇹 D3struction
 `)
       .setImage(MAIN_IMAGE)
@@ -159,10 +165,10 @@ if (message.content === "!streamers") {
 🥈 DIV 4 TOP 33 ALT — **10€**
 🥈 DIV 4 TOP 10 ALT — **14€**
 
-🎯 EVALUATION CUP TOP 100 — **4€**
-🎯 EVALUATION CUP TOP 50 — **7€**
-🎯 EVALUATION CUP TOP 33 — **10€**
-🎯 EVALUATION CUP TOP 10 — **15€**
+🎯 EVALUATION CUP TOP 1000 — **4€**
+🎯 EVALUATION CUP TOP 500 — **7€**
+🎯 EVALUATION CUP TOP 300 — **10€**
+🎯 EVALUATION CUP TOP 100 — **15€**
 
 ━━━━━━━━━━━━━━━━━━
 
