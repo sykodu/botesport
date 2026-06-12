@@ -176,7 +176,7 @@ if (message.content === "!streamers") {
 💸 MINIMUM WITHDRAWAL: 30€
 📆 PLAYERS CAN START EARNING ONLY AFTER 7 DAYS OF ACTIVITY IN THE TEAM
 `)
-    .setImage(GIF_IMAGE)
+    .setImage(https://cdn.discordapp.com/attachments/1459911803709558928/1514879309909590026/jeez.png?ex=6a2cf8cc&is=6a2ba74c&hm=4ebc013735b92441ce14096980a1fe9987b0bc8b1cd7d250f4bae7602d509855&)
     .setFooter({
       text: "Payments • Updated automatically"
     });
@@ -193,6 +193,7 @@ if (message.content === "!requirements") {
 
 Se vuoi entrare nella nostra organizzazione, controlla il **PR minimo (EU PC)**
 🏫 **ACADEMY**
+
 • Fare **1v1** Aprendo ticket
 
 ⭐ **TALENT**
@@ -200,7 +201,6 @@ Se vuoi entrare nella nostra organizzazione, controlla il **PR minimo (EU PC)**
 
 🔥 **MAIN**
 • Minimo **3K PR**
-
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -239,7 +239,7 @@ Spiega almeno **3 motivi validi** per cui dovresti entrare nell'organizzazione.
 📩 Apri un 🎫 **ticket** se soddisfi uno dei requisiti richiesti.
 
 `)
-      .setImage(GIF_IMAGE)
+      .setImage(https://cdn.discordapp.com/attachments/1459911803709558928/1514879309909590026/jeez.png?ex=6a2cf8cc&is=6a2ba74c&hm=4ebc013735b92441ce14096980a1fe9987b0bc8b1cd7d250f4bae7602d509855&)
       .setFooter({ text: "Requirements • Updated automatically" });
 
     await message.channel.send({ embeds: [embed] });
