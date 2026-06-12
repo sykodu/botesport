@@ -118,6 +118,7 @@ client.on("messageCreate", async (message) => {
       .setTitle("💰 PAYMENTS TALENT & MAIN")
       .setDescription(`
 ━━━━━━━━━━━━━━━━━━
+
 🔥 **MAIN**
 
 🏆 SOLO CC TOP 500 — **2€**
@@ -125,20 +126,13 @@ client.on("messageCreate", async (message) => {
 🏆 SOLO CC TOP 50 — **7€**
 🏆 SOLO CC TOP 10 — **10€**
 
-🥇 DIV 1 TOP 100 ALT — **8€**
-🥇 DIV 1 TOP 50 ALT — **13€**
-🥇 DIV 1 TOP 33 ALT — **17€**
-🥇 DIV 1 TOP 10 ALT — **22€**
+🥇 DIV 1 TOP 100 ALT — **5€**
+🥇 DIV 1 TOP 50 ALT — **9€**
+🥇 DIV 1 TOP 10 ALT — **12€**
 
-🥈 DIV 2 TOP 100 ALT — **6€**
-🥈 DIV 2 TOP 50 ALT — **10€**
-🥈 DIV 2 TOP 33 ALT — **13€**
-🥈 DIV 2 TOP 10 ALT — **18€**
-
-🎯 EVALUATION CUP TOP 1000 — **5€**
-🎯 EVALUATION CUP TOP 500 — **8€**
-🎯 EVALUATION CUP TOP 330 — **12€**
-🎯 EVALUATION CUP TOP 100 — **18€**
+🥈 DIV 2 TOP 100 ALT — **4€**
+🥈 DIV 2 TOP 50 ALT — **8€**
+🥈 DIV 2 TOP 10 ALT — **11€**
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -151,17 +145,15 @@ client.on("messageCreate", async (message) => {
 
 🥇 DIV 3 TOP 100 ALT — **3€**
 🥇 DIV 3 TOP 50 ALT — **5€**
-🥇 DIV 3 TOP 33 ALT — **7€**
-🥇 DIV 3 TOP 10 ALT — **13€**
+🥇 DIV 3 TOP 10 ALT — **9€**
 
-🥈 DIV 4 TOP 100 ALT — **3€**
-🥈 DIV 4 TOP 50 ALT — **5€**
-🥈 DIV 4 TOP 33 ALT — **7€**
-🥈 DIV 4 TOP 10 ALT — **10€**
+🥈 DIV 4 TOP 100 ALT — **2€**
+🥈 DIV 4 TOP 50 ALT — **4€**
+🥈 DIV 4 TOP 10 ALT — **8€**
 
-🔄 RELOAD TOP 50 — **5€**
-🔄 RELOAD TOP 25 — **8€**
-🔄 RELOAD TOP 10 — **12€**
+🔄 RELOAD TOP 50 — **3€**
+🔄 RELOAD TOP 25 — **5€**
+🔄 RELOAD TOP 10 — **9€**
 
 ━━━━━━━━━━━━━━━━━━
 
