@@ -194,7 +194,7 @@ if (message.content === "!requirements") {
 Se vuoi entrare nella nostra organizzazione, controlla il **PR minimo (EU PC)**
 🏫 **ACADEMY**
 
-• Fare **1v1** Aprendo ticket
+• Fare **1v1** Aprendo Ticket
 
 ⭐ **TALENT**
 • Minimo **1K PR** 
