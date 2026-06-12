@@ -35,8 +35,7 @@ client.on("messageCreate", async (message) => {
       .setDescription(`
 🇮🇹 ASTRSOF
 🇮🇹 GLIERRA
-🇮🇹 CUGI
-🇮🇹 KAi
+🇮🇹 
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({ text: "Aggiornato automaticamente" });
@@ -49,14 +48,7 @@ client.on("messageCreate", async (message) => {
       .setColor("#5865F2")
       .setTitle("⭐ TALENT PLAYERS")
       .setDescription(`
-🇮🇹 LORE
-🇮🇹 TEOX
-🇮🇹 TUNDRA
-🇮🇹 Palazz
-🇮🇹 DOMENICO
-🇮🇹 HAPU
-🇮🇹 SIKX64
-🇮🇹 FEDE
+🇮🇹 (No name)
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({ text: "Talent • Updated automatically" });
@@ -69,6 +61,15 @@ client.on("messageCreate", async (message) => {
       .setColor("#5865F2")
       .setTitle("🏫 ACADEMY PLAYERS")
       .setDescription(`
+🇮🇹 CUGI
+🇮🇹 LORE
+🇮🇹 TEOX
+🇮🇹 TUNDRA
+🇮🇹 PALAZZ
+🇮🇹 DOMENICO
+🇮🇹 HAPU
+🇮🇹 SIKX64
+🇮🇹 FEDE
 🇮🇹 IBRA
 🇮🇹 CHRIS 
 🇮🇹 FRED
@@ -90,6 +91,7 @@ client.on("messageCreate", async (message) => {
 🇮🇹 TEK
 🇮🇹 GXBRY
 🇮🇹 YESSER
+🇮🇹 VOYRA
 
 `)
       .setImage(MAIN_IMAGE)
@@ -122,10 +124,10 @@ if (message.content === "!streamers") {
 ━━━━━━━━━━━━━━━━━━
 🔥 **MAIN**
 
-🏆 SOLO CC TOP 500 — **3€**
-🏆 SOLO CC TOP 100 — **7€**
-🏆 SOLO CC TOP 50 — **10€**
-🏆 SOLO CC TOP 10 — **15€**
+🏆 SOLO CC TOP 500 — **2€**
+🏆 SOLO CC TOP 100 — **4€**
+🏆 SOLO CC TOP 50 — **7€**
+🏆 SOLO CC TOP 10 — **10€**
 
 🥇 DIV 1 TOP 100 ALT — **8€**
 🥇 DIV 1 TOP 50 ALT — **13€**
@@ -137,38 +139,33 @@ if (message.content === "!streamers") {
 🥈 DIV 2 TOP 33 ALT — **13€**
 🥈 DIV 2 TOP 10 ALT — **18€**
 
-🔄 RELOAD TOP 50 — **5€**
-🔄 RELOAD TOP 25 — **8€**
-🔄 RELOAD TOP 10 — **12€**
-
-🎯 EVALUATION CUP TOP 100 — **5€**
-🎯 EVALUATION CUP TOP 50 — **8€**
-🎯 EVALUATION CUP TOP 33 — **12€**
-🎯 EVALUATION CUP TOP 10 — **18€**
+🎯 EVALUATION CUP TOP 1000 — **5€**
+🎯 EVALUATION CUP TOP 500 — **8€**
+🎯 EVALUATION CUP TOP 330 — **12€**
+🎯 EVALUATION CUP TOP 100 — **18€**
 
 ━━━━━━━━━━━━━━━━━━
 
 ⭐ **TALENT**
 
-🏆 SOLO CC TOP 500 — **2€**
-🏆 SOLO CC TOP 100 — **5€**
-🏆 SOLO CC TOP 50 — **8€**
-🏆 SOLO CC TOP 10 — **12€**
+🏆 SOLO CC TOP 500 — **1€**
+🏆 SOLO CC TOP 100 — **3€**
+🏆 SOLO CC TOP 50 — **6€**
+🏆 SOLO CC TOP 10 — **9€**
 
-🥇 DIV 3 TOP 100 ALT — **6€**
-🥇 DIV 3 TOP 50 ALT — **10€**
-🥇 DIV 3 TOP 33 ALT — **13€**
-🥇 DIV 3 TOP 10 ALT — **18€**
+🥇 DIV 3 TOP 100 ALT — **3€**
+🥇 DIV 3 TOP 50 ALT — **5€**
+🥇 DIV 3 TOP 33 ALT — **7€**
+🥇 DIV 3 TOP 10 ALT — **13€**
 
-🥈 DIV 4 TOP 100 ALT — **4€**
-🥈 DIV 4 TOP 50 ALT — **7€**
-🥈 DIV 4 TOP 33 ALT — **10€**
-🥈 DIV 4 TOP 10 ALT — **14€**
+🥈 DIV 4 TOP 100 ALT — **3€**
+🥈 DIV 4 TOP 50 ALT — **5€**
+🥈 DIV 4 TOP 33 ALT — **7€**
+🥈 DIV 4 TOP 10 ALT — **10€**
 
-🎯 EVALUATION CUP TOP 1000 — **4€**
-🎯 EVALUATION CUP TOP 500 — **7€**
-🎯 EVALUATION CUP TOP 300 — **10€**
-🎯 EVALUATION CUP TOP 100 — **15€**
+🔄 RELOAD TOP 50 — **5€**
+🔄 RELOAD TOP 25 — **8€**
+🔄 RELOAD TOP 10 — **12€**
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -176,6 +173,8 @@ if (message.content === "!streamers") {
 ⚠️ PLAYERS MUST HAVE THE ORG TAG
 ⚠️ PAYMENTS ARE SUBJECT TO ACTIVITY REQUIREMENTS
 🇪🇺 EU PLACEMENTS ONLY
+💸 MINIMUM WITHDRAWAL: 30€
+📆 PLAYERS CAN START EARNING ONLY AFTER 7 DAYS OF ACTIVITY IN THE TEAM
 `)
     .setImage(GIF_IMAGE)
     .setFooter({
@@ -194,25 +193,14 @@ if (message.content === "!requirements") {
 
 Se vuoi entrare nella nostra organizzazione, controlla il **PR minimo (EU PC)**
 🏫 **ACADEMY**
-• Minimo **200 PR**
+• Fare **1v1** Aprendo ticket
 
 ⭐ **TALENT**
-• Minimo **1K PR**
+• Minimo **1K PR** 
 
 🔥 **MAIN**
-• Minimo **2K PR**
+• Minimo **3K PR**
 
-Oppure puoi fare un **1v1** per dimostrare il tuo livello.
-
-━━━━━━━━━━━━━━━━━━
-
-📌 **Nota Operativa (Valutazione PR – SOFT)**
-
-• I PR ottenuti in **Medio Oriente** valgono al **50%**
-Esempio: 36.000 → 18.000
-
-• I PR ottenuti in **NA (Nord America)** vengono divisi per **1,5**
-Esempio: 45.000 → 30.000
 
 ━━━━━━━━━━━━━━━━━━
 
@@ -229,7 +217,7 @@ Spiega almeno **3 motivi validi** per cui dovresti entrare nell'organizzazione.
 
 🌟 **Vuoi Supportare la Community?**
 
-⭐ **VIP+ a vita** — **7 €**
+⭐ **VIP+ a vita** — **5 €**
 
 ━━━━━━━━━━━━━━━━━━
 
