@@ -20,6 +20,7 @@ const client = new Client({
 
 const MAIN_IMAGE = "https://cdn.discordapp.com/attachments/1495530975994712064/1512513218738913301/ChatGPT_Image_5_giu_2026_19_42_34.png?ex=6a245d34&is=6a230bb4&hm=baaf001b5a3608381669560b88fc05e5b4f9be2fa0d2f48caf980fb337c49d07&";
 const GIF_IMAGE = "https://cdn.discordapp.com/attachments/1495530975994712064/1512511531982655518/gif_loop_veloce.gif?ex=6a245ba2&is=6a230a22&hm=247da6d320d2321403e473426b341406579f14014755ae7c280e04cc00468e9a&";
+const JEEZ_IMAGE = "https://cdn.discordapp.com/attachments/1459911803709558928/1514879309909590026/jeez.png?ex=6a2cf8cc&is=6a2ba74c&hm=4ebc013735b92441ce14096980a1fe9987b0bc8b1cd7d250f4bae7602d509855&";
 
 client.once("clientReady", async () => {
   console.log(`✅ ${client.user.tag} online`);
@@ -35,7 +36,6 @@ client.on("messageCreate", async (message) => {
       .setDescription(`
 🇮🇹 ASTRSOF
 🇮🇹 GLIERRA
-🇮🇹 
 `)
       .setImage(MAIN_IMAGE)
       .setFooter({ text: "Aggiornato automaticamente" });
@@ -56,7 +56,7 @@ client.on("messageCreate", async (message) => {
     await message.channel.send({ embeds: [embed] });
   }
 
-    if (message.content === "!acc") {
+  if (message.content === "!acc") {
     const embed = new EmbedBuilder()
       .setColor("#5865F2")
       .setTitle("🏫 ACADEMY PLAYERS")
@@ -71,7 +71,7 @@ client.on("messageCreate", async (message) => {
 🇮🇹 SIKX64
 🇮🇹 FEDE
 🇮🇹 IBRA
-🇮🇹 CHRIS 
+🇮🇹 CHRIS
 🇮🇹 FRED
 🇮🇹 MAURO
 🇮🇹 SBOXY
@@ -92,18 +92,14 @@ client.on("messageCreate", async (message) => {
 🇮🇹 GXBRY
 🇮🇹 YESSER
 🇮🇹 VOYRA
-
 `)
       .setImage(MAIN_IMAGE)
-      .setFooter({
-        text: "Academy • Updated automatically"
-      });
+      .setFooter({ text: "Academy • Updated automatically" });
 
-    await message.channel.send({
-      embeds: [embed]
-    });
+    await message.channel.send({ embeds: [embed] });
   }
-if (message.content === "!streamers") {
+
+  if (message.content === "!streamers") {
     const embed = new EmbedBuilder()
       .setColor("#5865F2")
       .setTitle("🎥 STREAMERS")
@@ -117,10 +113,10 @@ if (message.content === "!streamers") {
   }
 
   if (message.content === "!payments") {
-  const embed = new EmbedBuilder()
-    .setColor("#5865F2")
-    .setTitle("💰 PAYMENTS TALENT & MAIN")
-    .setDescription(`
+    const embed = new EmbedBuilder()
+      .setColor("#5865F2")
+      .setTitle("💰 PAYMENTS TALENT & MAIN")
+      .setDescription(`
 ━━━━━━━━━━━━━━━━━━
 🔥 **MAIN**
 
@@ -176,15 +172,13 @@ if (message.content === "!streamers") {
 💸 MINIMUM WITHDRAWAL: 30€
 📆 PLAYERS CAN START EARNING ONLY AFTER 7 DAYS OF ACTIVITY IN THE TEAM
 `)
-    .setImage(https://cdn.discordapp.com/attachments/1459911803709558928/1514879309909590026/jeez.png?ex=6a2cf8cc&is=6a2ba74c&hm=4ebc013735b92441ce14096980a1fe9987b0bc8b1cd7d250f4bae7602d509855&)
-    .setFooter({
-      text: "Payments • Updated automatically"
-    });
+      .setImage(JEEZ_IMAGE)
+      .setFooter({ text: "Payments • Updated automatically" });
 
-  await message.channel.send({ embeds: [embed] });
-}
+    await message.channel.send({ embeds: [embed] });
+  }
 
-if (message.content === "!requirements") {
+  if (message.content === "!requirements") {
     const embed = new EmbedBuilder()
       .setColor("#5865F2")
       .setTitle("📋 REQUIREMENTS")
@@ -192,12 +186,12 @@ if (message.content === "!requirements") {
 👋 **Benvenuto nel Canale Requisiti!**
 
 Se vuoi entrare nella nostra organizzazione, controlla il **PR minimo (EU PC)**
-🏫 **ACADEMY**
 
-• Fare **1v1** Aprendo Ticket
+🏫 **ACADEMY**
+• Fare **1v1** aprendo ticket
 
 ⭐ **TALENT**
-• Minimo **1K PR** 
+• Minimo **1K PR**
 
 🔥 **MAIN**
 • Minimo **3K PR**
@@ -237,9 +231,8 @@ Spiega almeno **3 motivi validi** per cui dovresti entrare nell'organizzazione.
 ━━━━━━━━━━━━━━━━━━
 
 📩 Apri un 🎫 **ticket** se soddisfi uno dei requisiti richiesti.
-
 `)
-      .setImage(https://cdn.discordapp.com/attachments/1459911803709558928/1514879309909590026/jeez.png?ex=6a2cf8cc&is=6a2ba74c&hm=4ebc013735b92441ce14096980a1fe9987b0bc8b1cd7d250f4bae7602d509855&)
+      .setImage(JEEZ_IMAGE)
       .setFooter({ text: "Requirements • Updated automatically" });
 
     await message.channel.send({ embeds: [embed] });
